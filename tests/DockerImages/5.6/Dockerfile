@@ -1,4 +1,4 @@
-FROM php:5.6-alpine
+FROM php:5.6-alpine@sha256:3fa98fd41fe8324385baad525aa33856a59f4e6656e0308f353dcac9d76664d2
 RUN set -eux; \
     apk add --no-cache --virtual .build-deps \
     bash gcc g++ make autoconf pkgconfig git \
