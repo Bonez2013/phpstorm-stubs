@@ -1,4 +1,4 @@
-FROM php:8.1-alpine
+FROM php:8.1-alpine@sha256:425601b515e5d6f954c7bb85072742a03865f1c0d6520f3e48d9408f06b9f47a
 
 RUN set -eux; \
     apk add --repository http://dl-cdn.alpinelinux.org/alpine/edge/community --no-cache --virtual .build-deps \
