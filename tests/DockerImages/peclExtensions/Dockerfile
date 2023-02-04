@@ -1,4 +1,4 @@
-FROM php:8.0-alpine
+FROM php:8.0-alpine@sha256:98ae73f861efd82cc4c8806f17c0de86136244498489963f7f420b03d5c335dd
 
 RUN set -eux; \
     apk add --no-cache --virtual .build-deps \
